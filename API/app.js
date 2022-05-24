@@ -3,7 +3,7 @@ const app = express();
 
 // hello world api
 app.get("/", (req, res) => {
-  res.send({ message: "hello API Bleue shary" });
+  res.send({ message: "hello API Bleue shary test" });
 });
 
 // export app express 
